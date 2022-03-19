@@ -12,27 +12,9 @@ import './App.css';
 function App() {
   return (
     <div >
-     
-     
-      <Intro />
-      
-     {/* <Intro /> */}
+     <Intro />
      <About/>
      <ProductList />
-     <strong className="text-slider">
-                  <Typed
-                    strings={[
-                      "Front End Developer",
-                      "Back End Developer",
-                      "Software Engineer"
-                    ]}
-                    typeSpeed={80}
-                    backDelay={1100}
-                    backSpeed={30}
-                    loop
-                  />
-                </strong>
-     {/* <Product /> */}
     </div>
   );
 }
