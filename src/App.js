@@ -1,23 +1,38 @@
 import logo from './logo.svg';
+import Intro from './Components/Introduction/intro.js'
+import About from './Components/About/About';
+import Product from './Components/Product/Product';
+import ProductList from './Components/Product/ProductList/ProductList';
+import Typed from 'react-typed';
+
+
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     
+     
+      <Intro />
+      
+     {/* <Intro /> */}
+     <About/>
+     <ProductList />
+     <strong className="text-slider">
+                  <Typed
+                    strings={[
+                      "Front End Developer",
+                      "Back End Developer",
+                      "Software Engineer"
+                    ]}
+                    typeSpeed={80}
+                    backDelay={1100}
+                    backSpeed={30}
+                    loop
+                  />
+                </strong>
+     {/* <Product /> */}
     </div>
   );
 }
