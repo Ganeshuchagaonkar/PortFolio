@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from '../Product';
 import './productlist.css'
+import { product } from '../../../data';
 
 export default function ProductList() {
   return (
@@ -10,13 +11,11 @@ export default function ProductList() {
         <p className="pl-desc">Lama is creative posrtfolio that your work has been waiting for Beautiful homes.</p>
       </div>
       <div className="pl-list">
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
+        {
+          product.map((item)=> <Product key={item.id} link={item.link} img={item.img}  />)
+        }
+        
+        
       </div>
 
 
