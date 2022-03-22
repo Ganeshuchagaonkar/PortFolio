@@ -7,8 +7,8 @@ export default function ProductList() {
   return (
     <div className='pl'>
       <div className="pl-texts">
-        <h1 className="pl-title"> Create & Inspire. It's Lama</h1>
-        <p className="pl-desc">Lama is creative posrtfolio that your work has been waiting for Beautiful homes.</p>
+        <h1 className="pl-title"> About the Projects</h1>
+        <p className="pl-desc">All web app are developed using <b>react.js</b> and Mobile apps are developed using <b>Flutter</b> and <b>Dart </b>.</p>
       </div>
       <div className="pl-list">
         {
