@@ -1,6 +1,6 @@
 import React from 'react';
 import "./intro.css";
-import Me from "../../image/Ganesh.png";
+import Me from "../../image/Intro.png";
 import Typed from 'react-typed';
 
 

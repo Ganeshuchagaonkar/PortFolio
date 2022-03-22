@@ -6,6 +6,7 @@ import address from "../../image/address.png"
 import {useRef,useState} from "react";
 import { useToasts } from 'react-toast-notifications';
 import emailjs from "emailjs-com"
+// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const Contact=()=>{
     const formRef=useRef()
@@ -66,12 +67,13 @@ const Contact=()=>{
             <textarea 
             // style={{backgroundColor: darkMode && "#333"}} 
             rows="5" placeholder="Message" name="message" />
+            <br />
             <button>Submit</button>
             {done && "Thank you..."}
           </form>
             </div>
+          
             </div>
-            
     </div>
     
   )

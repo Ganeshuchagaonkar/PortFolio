@@ -10,6 +10,7 @@ import { ToastProvider } from 'react-toast-notifications';
 import Toggle from './Components/Toggle/Toggle';
 import {useContext,React} from 'react';
 import { ThemeContext } from './Context';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
      <About />
      <ProductList/>
      <ToastProvider><Contact/></ToastProvider>
+     <Footer />
+
+     
      
   
     </div>
