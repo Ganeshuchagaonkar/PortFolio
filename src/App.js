@@ -13,6 +13,7 @@ import { ThemeContext } from './Context';
 import Footer from './Components/Footer/Footer';
 
 
+
 function App() {
   const theme=useContext(ThemeContext)
   const darkMode=theme.state.darkMode
@@ -25,6 +26,7 @@ function App() {
      <ProductList/>
      <ToastProvider><Contact/></ToastProvider>
      <Footer />
+    
 
      
      

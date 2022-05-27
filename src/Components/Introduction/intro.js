@@ -38,7 +38,7 @@ function intro() {
             </div>
             <br />
             <div className="i-desc">
-               I design and develope service for customer of all sizes, specializing in creating stylish and modern website.
+               I design and develop service for customer of all sizes, specializing in creating stylish and modern website.
              </div>
           </div>
         </div>
